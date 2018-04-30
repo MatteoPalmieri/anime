@@ -251,13 +251,13 @@ html,
 }
 
 .thumbnail-anime {
-    height: 350px;
+    height: 340px;
     object-fit: cover;
     opacity: 0.5;
 }
 
 .thumbnail-anime:hover {
-    height: 350px;
+    height: 340px;
     object-fit: cover;
     opacity: 1.0;
 }
@@ -271,10 +271,33 @@ html,
     margin: 10px;
 }
 
-h2 {
+h1{
+    font-family: 'Glegoo', 'serif';
+}
+h2{
+    font-family: 'Glegoo', 'serif';
+}
+h3{
+    font-family: 'Glegoo', 'serif';
+}
+h4{
+    font-family: 'Glegoo', 'serif';
+}
+h5{
+    font-family: 'Glegoo', 'serif';
+}
+h6{
+    font-family: 'Glegoo', 'serif';
+}
+p{
     font-family: 'Glegoo', 'serif';
 }
 
 .body-list{
     background-color: rgba(64,64,64,100);
+    margin: 30px;
+}
+
+.breadcrumb{
+    background-color: white;
 }
