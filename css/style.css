@@ -252,12 +252,14 @@ html,
 
 .thumbnail-anime {
     height: 340px;
+    min-width: 100%;
     object-fit: cover;
     opacity: 0.5;
 }
 
 .thumbnail-anime:hover {
     height: 340px;
+    min-width: 100%;
     object-fit: cover;
     opacity: 1.0;
 }
