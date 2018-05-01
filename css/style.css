@@ -301,5 +301,10 @@ p{
 }
 
 .breadcrumb{
-    background-color: white;
+    background-color: transparent;
+}
+
+.episodes-button{
+    background-color: transparent;
+    border-color: transparent;
 }
