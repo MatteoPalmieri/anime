@@ -308,3 +308,12 @@ p{
     background-color: transparent;
     border-color: transparent;
 }
+
+.episodes-button:hover{
+    background-color: transparent;
+    border-color: black;
+}
+.episodes-button:focus{
+    background-color: transparent;
+    border-color: black;
+}
