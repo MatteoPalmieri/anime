@@ -24,6 +24,9 @@ a:hover {
   border: 1px solid #fff;
 }
 
+body{
+    font-family: 'Glegoo', 'serif';
+}
 
 /*
 * Base structure
@@ -294,6 +297,18 @@ h6{
 p{
     font-family: 'Glegoo', 'serif';
 }
+ul{
+    font-family: 'Glegoo', 'serif';
+}
+ol{
+    font-family: 'Glegoo', 'serif';
+}
+li{
+    font-family: 'Glegoo', 'serif';
+}
+a{
+    font-family: 'Glegoo', 'serif';
+}
 
 .body-list{
     background-color: rgba(64,64,64,100);
@@ -302,6 +317,10 @@ p{
 
 .breadcrumb{
     background-color: transparent;
+    font-family: 'Glegoo', 'serif';
+}
+.nav{
+    font-family: 'Glegoo', 'serif';
 }
 
 .episodes-button{
