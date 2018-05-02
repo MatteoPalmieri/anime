@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Cover Template for Bootstrap</title>
+    <title>Registrati</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -32,103 +32,83 @@
 <![endif]-->
   </head>
 
-  <body class="sfondo_home">
+  <body class="sfondo_home" style="padding-top: 40px;">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">
+            <img alt="Home" src="../img/Hat.png">
+          </a>
+        </div>
 
-    <div class="site-wrapper">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Anime <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="Anime/piu_visti_anime.html">Gli anime più visti</a></li>
+                <li><a href="Anime/piu_apprezzati_anime.html">Gli anime più apprezzati</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="Anime/tutti_anime.html">Tutti gli anime</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Manga <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="Manga/piu_letti_manga.html">I manga più letti</a></li>
+                <li><a href="Manga/piu_apprezzati_manga.html">I manga più apprezzati</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="Manga/tutti_manga.html">Tutti i manga</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <nav class="navbar navbar-inverse navbar-fixed-top">
-                <div class="container">
-                  <!-- Brand and toggle get grouped for better mobile display -->
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../index.html">
-                      <img alt="Home" src="img/Hat.png">
-                    </a>
-                  </div>
-
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Anime <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="html/pi%C3%B9_visti_anime.html">Gli anime più visti</a></li>
-                          <li><a href="html/pi%C3%B9_apprezzati_anime.html">Gli anime più apprezzati</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="#">Tutti gli anime</a></li>
-                        </ul>
-                      </li>
-                      <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Manga <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="Manga/Pi%C3%B9_letti.html">I manga più visti</a></li>
-                          <li><a href="Manga/Pi%C3%B9_apprezzati.html">I manga più apprezzati</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="#">Tutti i manga</a></li>
-
-                        </ul>
-                      </li>
-                      <li><a href="teorie.html">Teorie</a></li>
-                      <li><a href="forum.html">Forum</a></li>
-                    </ul>
-                  </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-              </nav>
-            </div>
-          </div>
-
-          <div class="inner cover">
-            <h1 class="cover-heading">Registrati!</h1>
+    <h1 style="color: white;" >Registrati!</h1>
             <p class="pag">Crea uno username e una password e riguarda i tuoi contenuti quando vuoi e più facilmente!</p>
             <form class="form-horizontal">
               <div class="form-group">
-                <label for="inputEmail3" class="col-sm-2 control-label">Username</label>
+                <label for="inputEmail3" class="col-sm-2 control-label" style="color: white;">Username</label>
                 <div class="col-sm-10">
                   <input type="username" class="form-control" id="inputEmail3" placeholder="Username">
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                <label for="inputPassword3" class="col-sm-2 control-label" style="color: white;">Password</label>
                 <div class="col-sm-10">
                   <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
                 </div>
               </div>
               <div class="form-group">
-                <label for="inputPassword3" class="col-sm-2 control-label">Conferma password</label>
+                <label for="inputPassword3" class="col-sm-2 control-label" style="color: white;">Conferma password</label>
                 <div class="col-sm-10">
                   <input type="password" class="form-control" id="inputPassword3" placeholder="Conferma password">
                 </div>
               </div>
-              
+
               <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
                   <button type="submit" class="btn btn-success">Registrati</button>
                 </div>
               </div>
             </form>
-            <footer>
-              <p>Anime archive by Matteo and Marco <a href="#">(Contacts)</a></p>
-            </footer>
-          </div>
-        </div>
 
-      </div>
-      
-      
-    </div>
-      <!-- FOOTER -->
-      
+
+            <footer>
+              <p style="color: white;" >Anime archive by Matteo and Marco <a href="#">(Contacts)</a></p>
+            </footer>
+           <!-- FOOTER -->
+
 
 
     <!-- Bootstrap core JavaScript
